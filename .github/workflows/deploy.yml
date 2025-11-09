@@ -40,11 +40,10 @@ jobs:
           pnpm run docs:build
           touch .nojekyll
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # 升级为 v3（目前最新）
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
 
-  # 部署工作
   deploy:
     environment:
       name: github-pages
@@ -55,4 +54,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3 # 升级为 v3（目前最新）
+        uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v3

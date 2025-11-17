@@ -21,23 +21,22 @@ export default defineConfig({
         ] 
       },
       { text: 'tools', items: [
-          { text: 'Git', link: '/zh/tools/Git' },
+          { text: 'Git', link: '/zh/tools/Git/' },
           { text: 'Docker', link: '/zh/tools/Docker/' }
         ] 
       },
       { text: 'others', items: [
-          { text: 'Vitepress搭建教程', link: '/zh/others/vitepress' },
-          { text: 'Docker', link: '/zh/tools/Docker/' }
+          { text: 'Vitepress搭建教程', link: '/zh/others/vitepress/' },
         ] 
       },
     ],
 
     sidebar: {
-        "/zh/RL/": set_sidebar("/zh/RL/"),
-        "/zh/Docs/ROS2/": set_sidebar("/zh/Docs/ROS2/"),
-        "/zh/Docs/Mujoco/": set_sidebar("/zh/Docs/Mujoco/"),
+        "/zh/RL": set_sidebar("/zh/RL"),
+        "/zh/Docs/ROS2": set_sidebar("/zh/Docs/ROS2"),
+        "/zh/Docs/Mujoco": set_sidebar("/zh/Docs/Mujoco"),
         "/zh/tools/Git": set_sidebar("/zh/tools/Git"),
-        "/zh/tools/Docker/": set_sidebar("/zh/tools/Docker/"),
+        "/zh/tools/Docker": set_sidebar("/zh/tools/Docker"),
     },
 
     socialLinks: [

@@ -16,8 +16,8 @@ export default defineConfig({
       { text: 'About', link: '/zh/about/index.md' },
       { text: '强化学习', link: '/zh/RL/' },
       { text: 'Docs', items: [
-          { text: 'ROS2', link: '/zh/Docs/ROS2/' },
-          { text: 'Mujoco', link: '/zh/Docs/Mujoco/' }
+          { text: 'ROS2', link: '/zh/docs/ROS2/' },
+          { text: 'Mujoco', link: '/zh/docs/Mujoco/' }
         ] 
       },
       { text: 'tools', items: [
@@ -33,8 +33,8 @@ export default defineConfig({
 
     sidebar: {
         "/zh/RL": set_sidebar("/zh/RL"),
-        "/zh/Docs/ROS2": set_sidebar("/zh/Docs/ROS2"),
-        "/zh/Docs/Mujoco": set_sidebar("/zh/Docs/Mujoco"),
+        "/zh/docs/ROS2": set_sidebar("/zh/docs/ROS2"),
+        "/zh/docs/Mujoco": set_sidebar("/zh/docs/Mujoco"),
         "/zh/tools/Git": set_sidebar("/zh/tools/Git"),
         "/zh/tools/Docker": set_sidebar("/zh/tools/Docker"),
     },

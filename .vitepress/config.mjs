@@ -120,7 +120,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.jpg',
     siteTitle: 'Yaozeng Huang',
     socialLinks: sharedSocialLinks,
     sidebar: sharedSidebar,

@@ -33,7 +33,7 @@ pageClass: page-home
 
   <aside class="hero-photo">
     <div class="photo-frame">
-      <img src="/logo.jpg" alt="Retrato de Yaozeng Huang" />
+      <img src="/avatar.jpg" alt="Retrato de Yaozeng Huang" />
     </div>
     <p class="caption">黄耀增 · Universidad de Xinjiang</p>
   </aside>

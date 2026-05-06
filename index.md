@@ -7,12 +7,6 @@ titleTemplate: ':title · 黄耀增'
 pageClass: page-home
 ---
 
-<!--
-NOTE: 头像位置当前使用 /public/logo.jpg（蜡笔小新卡通图）作为占位。
-建议替换为一张正装/半正装个人证件照（512×512 或更大方图），
-放在 /public/avatar.jpg，并把下面 <img src="..."> 改为 /avatar.jpg。
--->
-
 <div class="academic-home">
 
 <section class="hero">
@@ -39,7 +33,7 @@ NOTE: 头像位置当前使用 /public/logo.jpg（蜡笔小新卡通图）作为
 
   <aside class="hero-photo">
     <div class="photo-frame">
-      <img src="/logo.jpg" alt="Portrait of Yaozeng Huang" />
+      <img src="/avatar.jpg" alt="Portrait of Yaozeng Huang" />
     </div>
     <p class="caption">黄耀增 · 新疆大学</p>
   </aside>

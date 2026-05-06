@@ -33,7 +33,7 @@ pageClass: page-home
 
   <aside class="hero-photo">
     <div class="photo-frame">
-      <img src="/logo.jpg" alt="黄耀増の肖像" />
+      <img src="/avatar.jpg" alt="黄耀増の肖像" />
     </div>
     <p class="caption">黄耀増 · 新疆大学</p>
   </aside>

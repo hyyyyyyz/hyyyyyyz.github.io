@@ -8,3 +8,7 @@ cache
 *.local
 .vitepress/dist
 .vitepress/cache
+
+# Personal photo originals — only the cropped public/avatar.jpg is committed
+证件照.*
+*.heic

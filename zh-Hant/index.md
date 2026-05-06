@@ -33,7 +33,7 @@ pageClass: page-home
 
   <aside class="hero-photo">
     <div class="photo-frame">
-      <img src="/logo.jpg" alt="黃耀增" />
+      <img src="/avatar.jpg" alt="黃耀增" />
     </div>
     <p class="caption">黃耀增 · 新疆大學</p>
   </aside>
